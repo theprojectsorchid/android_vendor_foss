@@ -39,6 +39,24 @@ android_app_import {
     certificate: "presigned",
 }
 
+android_app_import {
+    name: "AppleWifiNlpBackend",
+    srcs: "backends/AppleWifiNlpBackend.apk",
+    certificate: "presigned",
+}
+
+android_app_import {
+    name: "MozillaNlpBackend",
+    srcs: "backends/MozillaNlpBackend.apk",
+    certificate: "presigned",
+}
+
+android_app_import {
+    name: "NominatimGeocoderBackend",
+    srcs: "backends/NominatimGeocoderBackend.apk",
+    certificate: "presigned",
+}
+
 prebuilt_etc_xml {
     name: "microg-sysconfig.xml",
     src: "sysconfig/microg-sysconfig.xml",

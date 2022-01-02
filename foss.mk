@@ -11,4 +11,7 @@ PRODUCT_PACKAGES += \
 	GmsCore \
 	FakeStore \
 	GsfProxy \
-	microg-sysconfig.xml
+	microg-sysconfig.xml \
+	AppleWifiNlpBackend \
+	MozillaNlpBackend \
+	NominatimGeocoderBackend
