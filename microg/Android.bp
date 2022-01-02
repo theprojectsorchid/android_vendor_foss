@@ -7,7 +7,7 @@ prebuilt_etc_xml {
 
 android_app_import {
     name: "GmsCore",
-    srcs: "GmsCore/GmsCore.apk",
+    apk: "GmsCore/GmsCore.apk",
 
     privileged: true,
 
@@ -25,7 +25,7 @@ prebuilt_etc_xml {
 
 android_app_import {
     name: "FakeStore",
-    srcs: "FakeStore/FakeStore.apk",
+    apk: "FakeStore/FakeStore.apk",
 
     privileged: true,
 
@@ -35,25 +35,25 @@ android_app_import {
 
 android_app_import {
     name: "GsfProxy",
-    srcs: "GsfProxy/GsfProxy.apk",
+    apk: "GsfProxy/GsfProxy.apk",
     certificate: "presigned",
 }
 
 android_app_import {
     name: "AppleWifiNlpBackend",
-    srcs: "backends/AppleWifiNlpBackend.apk",
+    apk: "backends/AppleWifiNlpBackend.apk",
     certificate: "presigned",
 }
 
 android_app_import {
     name: "MozillaNlpBackend",
-    srcs: "backends/MozillaNlpBackend.apk",
+    apk: "backends/MozillaNlpBackend.apk",
     certificate: "presigned",
 }
 
 android_app_import {
     name: "NominatimGeocoderBackend",
-    srcs: "backends/NominatimGeocoderBackend.apk",
+    apk: "backends/NominatimGeocoderBackend.apk",
     certificate: "presigned",
 }
 
