@@ -1,0 +1,13 @@
+android_app_import {
+        name: "BromiteSystemWebview",
+        required: [
+            "libwebviewchromium_loader",
+            "libwebviewchromium_plat_support",
+        ],
+        apk: "prebuilt/BromiteSystemWebview/BromiteSystemWebview.apk",
+        overrides: ["webview"],
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
