@@ -38,3 +38,10 @@ android_app_import {
     srcs: "GsfProxy/GsfProxy.apk",
     certificate: "presigned",
 }
+
+prebuilt_etc_xml {
+    name: "microg-sysconfig.xml",
+    src: "sysconfig/microg-sysconfig.xml",
+    filename_from_src: true,
+	sub_dir: "sysconfig",
+}

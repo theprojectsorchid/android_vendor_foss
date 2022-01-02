@@ -10,4 +10,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	GmsCore \
 	FakeStore \
-	GsfProxy
+	GsfProxy \
+	microg-sysconfig.xml
