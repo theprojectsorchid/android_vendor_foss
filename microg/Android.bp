@@ -29,32 +29,32 @@ android_app_import {
 
     privileged: true,
 
-    certificate: "presigned",
+    presigned: true,
     required: ["privapp-permissions-com.android.vending.xml"],
 }
 
 android_app_import {
     name: "GsfProxy",
     apk: "GsfProxy/GsfProxy.apk",
-    certificate: "presigned",
+    presigned: true,
 }
 
 android_app_import {
     name: "AppleWifiNlpBackend",
     apk: "backends/AppleWifiNlpBackend.apk",
-    certificate: "presigned",
+    presigned: true,
 }
 
 android_app_import {
     name: "MozillaNlpBackend",
     apk: "backends/MozillaNlpBackend.apk",
-    certificate: "presigned",
+    presigned: true,
 }
 
 android_app_import {
     name: "NominatimGeocoderBackend",
     apk: "backends/NominatimGeocoderBackend.apk",
-    certificate: "presigned",
+    presigned: true,
 }
 
 prebuilt_etc_xml {
