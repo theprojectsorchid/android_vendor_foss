@@ -39,3 +39,12 @@ android_app_import {
                 enabled: false,
         },
 }
+
+android_app_import {
+        name: "OrganicMaps",
+        apk: "prebuilt/OrganicMaps/OrganicMaps.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
