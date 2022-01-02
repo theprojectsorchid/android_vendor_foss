@@ -1,0 +1,17 @@
+prebuilt_etc_xml {
+    name: "privapp-permissions-com.google.android.gms.xml",
+    src: "GmsCore/privapp-permissions-com.google.android.gms.xml",
+    filename_from_src: true,
+	sub_dir: "permissions",
+}
+
+android_app_import {
+    name: "GmsCore",
+    srcs: "GmsCore/GmsCore.apk",
+
+    privileged: true,
+
+    certificate: "platform",
+    overrides: ["com.qualcomm.location"],
+    required: ["privapp-permissions-com.google.android.gms.xml"],
+}
