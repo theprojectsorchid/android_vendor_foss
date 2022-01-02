@@ -1,2 +1,3 @@
 PRODUCT_PACKAGES += \
-	BromiteSystemWebview
+	BromiteSystemWebview \
+	DuckDuckGo
