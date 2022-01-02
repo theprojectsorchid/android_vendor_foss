@@ -15,3 +15,26 @@ android_app_import {
     overrides: ["com.qualcomm.location"],
     required: ["privapp-permissions-com.google.android.gms.xml"],
 }
+
+prebuilt_etc_xml {
+    name: "privapp-permissions-com.android.vending.xml",
+    src: "FakeStore/privapp-permissions-com.android.vending.xml",
+    filename_from_src: true,
+	sub_dir: "permissions",
+}
+
+android_app_import {
+    name: "FakeStore",
+    srcs: "FakeStore/FakeStore.apk",
+
+    privileged: true,
+
+    certificate: "presigned",
+    required: ["privapp-permissions-com.android.vending.xml"],
+}
+
+android_app_import {
+    name: "GsfProxy",
+    srcs: "GsfProxy/GsfProxy.apk",
+    certificate: "presigned",
+}

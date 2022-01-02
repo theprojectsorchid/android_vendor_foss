@@ -8,4 +8,6 @@ PRODUCT_PACKAGES += \
 
 # MicroG
 PRODUCT_PACKAGES += \
-	GmsCore
+	GmsCore \
+	FakeStore \
+	GsfProxy
