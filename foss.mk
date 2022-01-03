@@ -1,6 +1,5 @@
 # Apps
 PRODUCT_PACKAGES += \
-	AdGuard \
 	AuroraStore \
 	BlackHole \
 	BromiteSystemWebview \
