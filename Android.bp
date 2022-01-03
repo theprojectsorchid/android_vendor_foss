@@ -1,4 +1,13 @@
 android_app_import {
+        name: "AdGuard",
+        apk: "prebuilt/AdGuard/AdGuard.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
         name: "BlackHole",
         apk: "prebuilt/BlackHole/BlackHole.apk",
         presigned: true,
