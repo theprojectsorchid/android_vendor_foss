@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<permissions>
-    <privapp-permissions package="com.oasisfeng.island.fdroid">
-        <permission name="android.permission.DEVICE-ADMIN"/>
-        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
-    </privapp-permissions>
-</permissions>
