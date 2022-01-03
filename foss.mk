@@ -11,6 +11,7 @@ PRODUCT_PACKAGES += \
 	GmsCore \
 	FakeStore \
 	GsfProxy \
+	DroidGuard \
 	microg-sysconfig.xml \
 	AppleWifiNlpBackend \
 	MozillaNlpBackend \
