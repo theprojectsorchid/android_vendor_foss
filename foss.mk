@@ -1,6 +1,5 @@
 # Apps
 PRODUCT_PACKAGES += \
-	AdAway \
 	AuroraStore \
 	BlackHole \
 	BromiteSystemWebview \
