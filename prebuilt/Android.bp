@@ -1,4 +1,13 @@
 android_app_import {
+        name: "AdAway",
+        apk: "AdAway/AdAway.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
         name: "BlackHole",
         apk: "BlackHole/BlackHole.apk",
         presigned: true,
