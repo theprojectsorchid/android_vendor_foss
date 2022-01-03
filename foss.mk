@@ -6,6 +6,7 @@ PRODUCT_PACKAGES += \
 	BromiteSystemWebview \
 	Droidify \
 	DuckDuckGo \
+	Insular \
 	OrganicMaps \
 	Telegram
 

@@ -93,3 +93,20 @@ android_app_import {
                 enabled: false,
         },
 }
+
+android_app_import {
+        name: "Insular",
+        apk: "Insular/Insular.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        required: ["privapp-permissions-insular.xml"],
+}
+
+prebuilt_etc_xml {
+        name: "privapp-permissions-insular.xml",
+        src: "Insular/privapp-permissions-insular.xml",
+        filename_from_src: true,
+        sub_dir: "permissions",
+}
