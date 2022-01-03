@@ -6,7 +6,8 @@ PRODUCT_PACKAGES += \
 	BromiteSystemWebview \
 	Droidify \
 	DuckDuckGo \
-	OrganicMaps
+	OrganicMaps \
+	Telegram
 
 # MicroG
 PRODUCT_PACKAGES += \

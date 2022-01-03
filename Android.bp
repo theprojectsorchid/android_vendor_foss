@@ -84,3 +84,12 @@ prebuilt_etc_xml {
     filename_from_src: true,
 	sub_dir: "permissions",
 }
+
+android_app_import {
+        name: "Telegram",
+        apk: "prebuilt/Telegram/Telegram.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
