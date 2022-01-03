@@ -4,8 +4,4 @@
     <boolean name="gcm_enable_mcs_service" value="true" />
     <boolean name="network_google_use_tor" value="false" />
     <boolean name="network_google_enabled" value="true" />
-    <boolean name="snet_disabled" value="false" />
-    <boolean name="snet_third_party" value="false" />
-    <boolean name="snet_self_signed" value="false" />
-    <boolean name="snet_official" value="true" />
 </map>

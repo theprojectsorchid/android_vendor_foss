@@ -40,12 +40,6 @@ android_app_import {
 }
 
 android_app_import {
-    name: "DroidGuard",
-    apk: "DroidGuard/DroidGuard.apk",
-    presigned: true,
-}
-
-android_app_import {
     name: "AppleWifiNlpBackend",
     apk: "backends/AppleWifiNlpBackend.apk",
     presigned: true,
