@@ -75,3 +75,16 @@ prebuilt_etc_xml {
     src: "GmsCore/microg.xml",
     filename_from_src: true,
 }
+
+prebuilt_etc_xml {
+    name: "com.google.android.maps.xml",
+    src: "com.google.android.maps/com.google.android.maps.xml",
+    filename_from_src: true,
+	sub_dir: "permissions",
+}
+
+dex_import {
+    name: "com.google.android.maps.jar",
+    jars: ["com.google.android.maps/com.google.android.maps.jar"],
+    required: ["com.google.android.maps.xml"],
+}

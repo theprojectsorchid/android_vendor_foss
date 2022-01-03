@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
 	FakeStore \
 	GsfProxy \
 	DroidGuard \
+	com.google.android.maps.jar \
 	AppleWifiNlpBackend \
 	MozillaNlpBackend \
 	NominatimGeocoderBackend
