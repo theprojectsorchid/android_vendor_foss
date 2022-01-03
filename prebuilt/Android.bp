@@ -1,6 +1,6 @@
 android_app_import {
         name: "AdGuard",
-        apk: "prebuilt/AdGuard/AdGuard.apk",
+        apk: "AdGuard/AdGuard.apk",
         presigned: true,
         dex_preopt: {
                 enabled: false,
@@ -9,7 +9,7 @@ android_app_import {
 
 android_app_import {
         name: "BlackHole",
-        apk: "prebuilt/BlackHole/BlackHole.apk",
+        apk: "BlackHole/BlackHole.apk",
         presigned: true,
         dex_preopt: {
                 enabled: false,
@@ -22,7 +22,7 @@ android_app_import {
             "libwebviewchromium_loader",
             "libwebviewchromium_plat_support",
         ],
-        apk: "prebuilt/BromiteSystemWebview/BromiteSystemWebview.apk",
+        apk: "BromiteSystemWebview/BromiteSystemWebview.apk",
         overrides: ["webview"],
         presigned: true,
         dex_preopt: {
@@ -32,7 +32,7 @@ android_app_import {
 
 android_app_import {
         name: "DuckDuckGo",
-        apk: "prebuilt/DuckDuckGo/DuckDuckGo.apk",
+        apk: "DuckDuckGo/DuckDuckGo.apk",
         overrides: ["Browser2", "Jelly"],
         presigned: true,
         dex_preopt: {
@@ -42,7 +42,7 @@ android_app_import {
 
 android_app_import {
         name: "OrganicMaps",
-        apk: "prebuilt/OrganicMaps/OrganicMaps.apk",
+        apk: "OrganicMaps/OrganicMaps.apk",
         presigned: true,
         dex_preopt: {
                 enabled: false,
@@ -51,7 +51,7 @@ android_app_import {
 
 android_app_import {
         name: "Droidify",
-        apk: "prebuilt/Droidify/Droidify.apk",
+        apk: "Droidify/Droidify.apk",
         presigned: true,
         dex_preopt: {
                 enabled: false,
@@ -62,14 +62,14 @@ android_app_import {
 
 prebuilt_etc_xml {
     name: "privapp-permissions-droidify.xml",
-    src: "prebuilt/Droidify/privapp-permissions-droidify.xml",
+    src: "Droidify/privapp-permissions-droidify.xml",
     filename_from_src: true,
 	sub_dir: "permissions",
 }
 
 android_app_import {
         name: "AuroraStore",
-        apk: "prebuilt/AuroraStore/AuroraStore.apk",
+        apk: "AuroraStore/AuroraStore.apk",
         presigned: true,
         dex_preopt: {
                 enabled: false,
@@ -80,14 +80,14 @@ android_app_import {
 
 prebuilt_etc_xml {
     name: "privapp-permissions-aurorastore.xml",
-    src: "prebuilt/AuroraStore/privapp-permissions-aurorastore.xml",
+    src: "AuroraStore/privapp-permissions-aurorastore.xml",
     filename_from_src: true,
 	sub_dir: "permissions",
 }
 
 android_app_import {
         name: "Telegram",
-        apk: "prebuilt/Telegram/Telegram.apk",
+        apk: "Telegram/Telegram.apk",
         presigned: true,
         dex_preopt: {
                 enabled: false,
