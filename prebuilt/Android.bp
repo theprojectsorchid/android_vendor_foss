@@ -61,9 +61,9 @@ android_app_import {
 }
 
 prebuilt_etc_xml {
-    name: "privapp-permissions-droidify.xml",
-    src: "Droidify/privapp-permissions-droidify.xml",
-    filename_from_src: true,
+        name: "privapp-permissions-droidify.xml",
+        src: "Droidify/privapp-permissions-droidify.xml",
+        filename_from_src: true,
 	sub_dir: "permissions",
 }
 
@@ -79,9 +79,9 @@ android_app_import {
 }
 
 prebuilt_etc_xml {
-    name: "privapp-permissions-aurorastore.xml",
-    src: "AuroraStore/privapp-permissions-aurorastore.xml",
-    filename_from_src: true,
+        name: "privapp-permissions-aurorastore.xml",
+        src: "AuroraStore/privapp-permissions-aurorastore.xml",
+        filename_from_src: true,
 	sub_dir: "permissions",
 }
 
