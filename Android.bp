@@ -48,3 +48,39 @@ android_app_import {
                 enabled: false,
         },
 }
+
+android_app_import {
+        name: "Droidify",
+        apk: "prebuilt/Droidify/Droidify.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        required: ["privapp-permissions-droidify.xml"],
+        privileged: true,
+}
+
+prebuilt_etc_xml {
+    name: "privapp-permissions-droidify.xml",
+    src: "prebuilt/Droidify/privapp-permissions-droidify.xml",
+    filename_from_src: true,
+	sub_dir: "permissions",
+}
+
+android_app_import {
+        name: "AuroraStore",
+        apk: "prebuilt/AuroraStore/AuroraStore.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        required: ["privapp-permissions-aurorastore.xml"],
+        privileged: true,
+}
+
+prebuilt_etc_xml {
+    name: "privapp-permissions-aurorastore.xml",
+    src: "prebuilt/AuroraStore/privapp-permissions-aurorastore.xml",
+    filename_from_src: true,
+	sub_dir: "permissions",
+}
