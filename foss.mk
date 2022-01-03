@@ -12,7 +12,6 @@ PRODUCT_PACKAGES += \
 	FakeStore \
 	GsfProxy \
 	DroidGuard \
-	microg-sysconfig.xml \
 	AppleWifiNlpBackend \
 	MozillaNlpBackend \
 	NominatimGeocoderBackend

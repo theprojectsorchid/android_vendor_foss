@@ -13,7 +13,7 @@ android_app_import {
 
     certificate: "platform",
     overrides: ["com.qualcomm.location"],
-    required: ["privapp-permissions-com.google.android.gms.xml"],
+    required: ["privapp-permissions-com.google.android.gms.xml", "microg.xml", "microg-whitelist.xml"],
 }
 
 prebuilt_etc_xml {
@@ -64,8 +64,14 @@ android_app_import {
 }
 
 prebuilt_etc_xml {
-    name: "microg-sysconfig.xml",
-    src: "sysconfig/microg-sysconfig.xml",
+    name: "microg-whitelist.xml",
+    src: "sysconfig/microg-whitelist.xml",
     filename_from_src: true,
 	sub_dir: "sysconfig",
+}
+
+prebuilt_etc_xml {
+    name: "microg.xml",
+    src: "GmsCore/microg.xml",
+    filename_from_src: true,
 }
