@@ -1,20 +1,19 @@
 # Apps
 PRODUCT_PACKAGES += \
 	AdAway \
-	AuroraStore \
-	BlackHole \
+	aperture \
 	BromiteSystemWebview \
-	Droidify \
-	DuckDuckGo \
-	OrganicMaps \
-	Telegram
+	connectyou \
+	datamonitor \
+	Dualwall \
+	gpt \
+	k9 \
+	metro \
+	qksms \
+	qstiles \
+	Telegram \
+	taptap \
+	tube \
+	wifiinfo \
+	zcal
 
-# MicroG
-PRODUCT_PACKAGES += \
-	GmsCore \
-	FakeStore \
-	GsfProxy \
-	com.google.android.maps.jar \
-	AppleWifiNlpBackend \
-	MozillaNlpBackend \
-	NominatimGeocoderBackend
