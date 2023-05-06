@@ -8,15 +8,6 @@ android_app_import {
 }
 
 android_app_import {
-        name: "BlackHole",
-        apk: "BlackHole/BlackHole.apk",
-        presigned: true,
-        dex_preopt: {
-                enabled: false,
-        },
-}
-
-android_app_import {
         name: "BromiteSystemWebview",
         required: [
             "libwebviewchromium_loader",
@@ -28,66 +19,83 @@ android_app_import {
         dex_preopt: {
                 enabled: false,
         },
-}
 
-android_app_import {
-        name: "DuckDuckGo",
-        apk: "DuckDuckGo/DuckDuckGo.apk",
-        overrides: ["Browser2", "Jelly"],
-        presigned: true,
-        dex_preopt: {
-                enabled: false,
-        },
-}
-
-android_app_import {
-        name: "OrganicMaps",
-        apk: "OrganicMaps/OrganicMaps.apk",
-        presigned: true,
-        dex_preopt: {
-                enabled: false,
-        },
-}
-
-android_app_import {
-        name: "Droidify",
-        apk: "Droidify/Droidify.apk",
-        presigned: true,
-        dex_preopt: {
-                enabled: false,
-        },
-        required: ["privapp-permissions-droidify.xml"],
-        privileged: true,
-}
-
-prebuilt_etc_xml {
-        name: "privapp-permissions-droidify.xml",
-        src: "Droidify/privapp-permissions-droidify.xml",
-        filename_from_src: true,
-	sub_dir: "permissions",
-}
-
-android_app_import {
-        name: "AuroraStore",
-        apk: "AuroraStore/AuroraStore.apk",
-        presigned: true,
-        dex_preopt: {
-                enabled: false,
-        },
-        required: ["privapp-permissions-aurorastore.xml"],
-        privileged: true,
-}
-
-prebuilt_etc_xml {
-        name: "privapp-permissions-aurorastore.xml",
-        src: "AuroraStore/privapp-permissions-aurorastore.xml",
-        filename_from_src: true,
-	sub_dir: "permissions",
 }
 
 android_app_import {
         name: "Telegram",
         apk: "Telegram/Telegram.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "taptap",
+        apk: "taptap/taptap.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+android_app_import {
+        name: "inware",
+        apk: "inware/inware.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "datamonitor",
+        apk: "datamonitor/datamonitor.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "qstiles",
+        apk: "qstiles/qstiles.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "keepon",
+        apk: "keepon/keepon.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "wifiinfo",
+        apk: "wifiinfo/wifiinfo.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "aperture",
+        apk: "aperture/aperture.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "gpt",
+        apk: "gpt/gpt.apk",
         presigned: true,
         dex_preopt: {
                 enabled: false,
