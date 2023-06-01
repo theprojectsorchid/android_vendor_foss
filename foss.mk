@@ -15,5 +15,7 @@ PRODUCT_PACKAGES += \
 	taptap \
 	tube \
 	wifiinfo \
-	zcal
+	zcal \
+	athena \
+	prow
 
