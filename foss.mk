@@ -15,4 +15,6 @@ PRODUCT_PACKAGES += \
 	cleanerplus \
 	athena \
 	connectyou \
+	prow \
+	appman \
 	recordyou

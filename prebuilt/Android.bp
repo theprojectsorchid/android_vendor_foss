@@ -148,3 +148,24 @@ android_app_import {
                 enabled: false,
         },
 }
+
+
+android_app_import {
+        name: "prow",
+        apk: "prow/prow.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+
+
+android_app_import {
+        name: "appman",
+        apk: "appman/appman.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
