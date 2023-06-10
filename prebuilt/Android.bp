@@ -40,8 +40,8 @@ android_app_import {
         },
 }
 android_app_import {
-        name: "inware",
-        apk: "inware/inware.apk",
+        name: "cal",
+        apk: "cal/cal.apk",
         presigned: true,
         dex_preopt: {
                 enabled: false,
@@ -67,8 +67,8 @@ android_app_import {
 }
 
 android_app_import {
-        name: "keepon",
-        apk: "keepon/keepon.apk",
+        name: "cleanerplus",
+        apk: "cleanerplus/cleanerplus.apk",
         presigned: true,
         dex_preopt: {
                 enabled: false,
@@ -96,6 +96,15 @@ android_app_import {
 android_app_import {
         name: "gpt",
         apk: "gpt/gpt.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "Dualwall",
+        apk: "Dualwall/Dualwall.apk",
         presigned: true,
         dex_preopt: {
                 enabled: false,

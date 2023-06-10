@@ -6,7 +6,8 @@ PRODUCT_PACKAGES += \
 	taptap \
 	qstiles \
 	datamonitor \
-	inware \
 	wifiinfo \
 	aperture \
-	gpt 
+	Dualwall \
+	cal \
+	cleanerplus
