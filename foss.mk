@@ -10,4 +10,7 @@ PRODUCT_PACKAGES += \
 	aperture \
 	Dualwall \
 	cal \
-	cleanerplus
+	gpt \
+	mybrain \
+	cleanerplus \
+	recordyou

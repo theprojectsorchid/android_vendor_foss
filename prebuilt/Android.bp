@@ -110,3 +110,22 @@ android_app_import {
                 enabled: false,
         },
 }
+
+
+android_app_import {
+        name: "mybrain",
+        apk: "mybrain/mybrain.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "recordyou",
+        apk: "recordyou/recordyou.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
