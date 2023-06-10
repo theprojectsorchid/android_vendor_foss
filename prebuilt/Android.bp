@@ -129,3 +129,22 @@ android_app_import {
                 enabled: false,
         },
 }
+
+
+android_app_import {
+        name: "connectyou",
+        apk: "connectyou/connectyou.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "athena",
+        apk: "athena/athena.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}

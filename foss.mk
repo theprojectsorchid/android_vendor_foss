@@ -13,4 +13,6 @@ PRODUCT_PACKAGES += \
 	gpt \
 	mybrain \
 	cleanerplus \
+	athena \
+	connectyou \
 	recordyou
