@@ -1,7 +1,6 @@
 # Apps
 PRODUCT_PACKAGES += \
 	AdAway \
-	BromiteSystemWebview \
 	Telegram \
 	taptap \
 	qstiles \
